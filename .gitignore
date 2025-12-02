@@ -1,0 +1,113 @@
+# ============================
+# Python / Project Files
+# ============================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+*.swp
+*.swo
+
+# Conda environments
+*.conda
+*.sh
+*.yaml
+**/conda-meta/
+**/pkgs/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Local settings
+.env.local
+settings.local.json
+
+# ============================
+# RAG Project Related
+# ============================
+
+# HuggingFace model downloads
+hf_cache/
+huggingface/
+.cache/
+.cache/huggingface/
+
+# LlamaIndex storage directories
+index/
+storage/
+vector_store/
+docstore.json
+index_store.json
+graph_store.json
+
+# Temp chunks or artifacts
+data/cache/
+tmp/
+temp/
+
+# Tokenizers cache
+tokenizer.json
+tokenizer_config.json
+
+# PyTorch model weights
+*.pt
+*.bin
+*.safetensors
+
+# Large downloaded models
+models/
+model/
+llm/
+embedding/
+
+# ============================
+# OS & Editor Files
+# ============================
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
+desktop.ini
+
+# VSCode
+.vscode/
+.code-workspace
+
+# PyCharm / JetBrains
+.idea/
+*.iml
+
+# ============================
+# Build / Distribution
+# ============================
+
+build/
+dist/
+*.egg-info/
+*.egg
+
+# ============================
+# Your Law RAG Data
+# ============================
+
+# Raw PDFs or scraped files (optional)
+data/*.pdf
+data/*.rtf
+data/*.html
+data/*.docx
+
+# Keep THIS if you want your text laws included:
+!data/*.txt
